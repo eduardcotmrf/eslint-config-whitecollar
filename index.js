@@ -1,12 +1,12 @@
 module.exports = {
 	plugins: [
-		'whitecollar'
+		"whitecollar"
 	],
 	env: {
 		commonjs: true
 	},
 	rules: {
-		"no-get-balcon": "error"
+		"whitecollar/no-get-balcon": "error"
 	}
 };
 
